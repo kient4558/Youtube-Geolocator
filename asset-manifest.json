@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Youtube-Geolocator/static/css/main.5fd0d06d.css",
+    "main.js": "/Youtube-Geolocator/static/js/main.f375081e.js",
+    "static/js/787.59a658cd.chunk.js": "/Youtube-Geolocator/static/js/787.59a658cd.chunk.js",
+    "index.html": "/Youtube-Geolocator/index.html",
+    "main.5fd0d06d.css.map": "/Youtube-Geolocator/static/css/main.5fd0d06d.css.map",
+    "main.f375081e.js.map": "/Youtube-Geolocator/static/js/main.f375081e.js.map",
+    "787.59a658cd.chunk.js.map": "/Youtube-Geolocator/static/js/787.59a658cd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5fd0d06d.css",
+    "static/js/main.f375081e.js"
+  ]
+}
