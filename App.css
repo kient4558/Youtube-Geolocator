@@ -1,0 +1,60 @@
+:root {
+  --background-color: rgb(6,11,25);
+  --border-color: rgba(97, 97, 97, 0.199);
+  --youtube-red: rgb(255, 0, 0);
+  --offwhite: #efefef;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+}
+
+nav > .nav-section {
+  padding: 3rem 2rem;
+  display: flex;
+  gap: 1rem;
+  border-left: 1px solid var(--border-color);
+  align-items: center;
+  justify-content: center;
+}
+
+#heading {
+  color: white;
+  flex-basis: calc(66%);
+  background-color: var(--youtube-red);
+}
+
+#keywordSearch {
+  flex-basis: calc(100%/4);
+  background-color: rgb(179, 0, 0);
+  color: white;
+}
+
+#locationSearch {
+  flex-basis: calc(100%/5);
+  background-color: rgb(138, 0, 0);
+  color: white;
+}
+
+#goButton {
+  flex-grow: 1;
+  background-color: rgb(230, 230, 230)
+}
+
+#dots {
+  color:white;
+}
+
+.results-bar {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: calc(100% - 144px);
+  border-right: 1px solid var(--border-color);
+  background-color: rgb(230, 230, 230);
+}
